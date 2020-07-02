@@ -5,12 +5,11 @@ import java.util.Scanner;
 public class Ex4 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        int num3, num1, num2, max, min;
-        num1 = input.nextInt();
-        num2 = input.nextInt();
-        num3 = input.nextInt();
-        min = num1;
-        max = num2;
+        int num1 = input.nextInt();
+        int num2 = input.nextInt();
+        int num3 = input.nextInt();
+        int min = num1;
+        int max = num2;
         if (num1 > num2) {
             min = num2 ; max = num1;
         }
